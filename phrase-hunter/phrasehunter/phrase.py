@@ -12,9 +12,9 @@ class Phrase:
                 if letter in guesses:
                     # prevent new line from being generated with each letter and underscore print
                     # https://stackoverflow.com/questions/11266068/python-avoid-new-line-with-print-command
-                    print(letter, end="")
+                    print(letter, end=" ")
                 else:
-                    print("_", end="")
+                    print("_", end=" ")
 
 	  # method that checks if letter selected by user is in the phrase
     def check_letter(self, letter_guess):
